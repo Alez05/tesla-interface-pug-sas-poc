@@ -14,7 +14,7 @@
     "update": "git pull && npm run prod",
     "test": "jest",
     "install:normal": "npm run i --ignore-scripts",
-    "reset-git": "echo \"Reset Git\" && rm -rf .git && git init && git add . && git commit -m \"From Zero to Hired and Multiple Job Offers with wowjob.dev\""
+    "reset-git": "echo \"Reset Git\" && rm -rf .git && git init && git add . && git commit -m \"From Zero to Hired with wowdop.com\""
   },
   "//": "CUSTOM CONFIGURATION",
   "installConfig": {
@@ -22,7 +22,7 @@
   },
   "config": {
     "customUrl": "http://pug-starter.codetap.academy",
-    "githubUrl": "http://github.com/wowdop/tesla-interface-pug-sass-poc.git",
+    "githubUrl": "https://github.com/Alez05/tesla-interface-pug-sas-poc.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
@@ -91,7 +91,7 @@
     "@babel/preset-flow": "7.0.0",
     "@babel/preset-stage-0": "7.0.0",
     "@babel/preset-stage-1": "7.0.0",
-    "@babel/register": "7.5.5",
+    "@babel/register": "^7.18.9",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
