@@ -13,9 +13,9 @@ html(lang="en")
   body
     .content
       block awesome-content
-    //- The style.scss is at the bottom so it doesn't
+    //- The style.css is at the bottom so it doesn't
     //- block the loading of assets
     if config.entry.css.external
-      link(rel="stylesheet", href=`${baseUrl}style.scss`)
+      link(rel="stylesheet", href=`${baseUrl}style.css`)
 
     //- script(src='bundle.js')
